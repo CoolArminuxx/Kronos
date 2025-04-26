@@ -28,6 +28,7 @@ public class Character_Controller : MonoBehaviour
         modelRot = GetComponentInChildren<CapsuleCollider>().gameObject.transform;
         rb = GetComponent<Rigidbody>();
         Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void Update()
