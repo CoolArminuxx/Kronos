@@ -23,7 +23,7 @@ public class Time_Cycle : MonoBehaviour
 
     public void CycleTime()
     {
-        counter += 20;
+        counter += 40;
         dirLight.DORotate(new Vector3(counter, -180, 0), 10f);
     }
 }

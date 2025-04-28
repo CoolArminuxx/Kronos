@@ -1,5 +1,260 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9152271865557288400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/InWorld.bank
+  m_EditorClassIdentifier: 
+  Path: Audio/KronosFMOD_Session/Build/Desktop/InWorld.bank
+  Name: InWorld
+  StudioPath: bank:/InWorld
+  lastModified: 638814441036314333
+  FileSizes:
+  - Name: Desktop
+    Value: 150848
+  Exists: 1
+--- !u!114 &-7634711200047300351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/2DAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/2DAmbience
+  Guid:
+    Data1: -2094647811
+    Data2: 1146152408
+    Data3: -501783389
+    Data4: 2061729011
+  Banks:
+  - {fileID: -4898046931513354851}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7403120505327987915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WindEQ
+  m_EditorClassIdentifier: 
+  Name: WindEQ
+  StudioPath: parameter:/WindEQ
+  Min: 0
+  Max: 10
+  Default: 4
+  ID:
+    data1: 3441827477
+    data2: 4011770286
+  Type: 0
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6339994891933624818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/TIMES_ofDay/NIGHT
+  m_EditorClassIdentifier: 
+  Path: snapshot:/TIMES_ofDay/NIGHT
+  Guid:
+    Data1: 2013582850
+    Data2: 1299425031
+    Data3: -1963949950
+    Data4: -812016400
+  Banks:
+  - {fileID: -4898046931513354851}
+  - {fileID: -2998754375049685972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-5643645210832655923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music_Dawn
+  m_EditorClassIdentifier: 
+  Path: event:/Music_Dawn
+  Guid:
+    Data1: 301199451
+    Data2: 1218743699
+    Data3: 511424395
+    Data4: 592988945
+  Banks:
+  - {fileID: 2878331233715439729}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 125000
+--- !u!114 &-5145711643794413339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/TIMES_ofDay/DAWN
+  m_EditorClassIdentifier: 
+  Path: snapshot:/TIMES_ofDay/DAWN
+  Guid:
+    Data1: 2016505283
+    Data2: 1104880836
+    Data3: 173436587
+    Data4: -973552707
+  Banks:
+  - {fileID: -4898046931513354851}
+  - {fileID: -2998754375049685972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-4948067749625125965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Command_STARTAMBIENCE
+  m_EditorClassIdentifier: 
+  Path: event:/Command_STARTAMBIENCE
+  Guid:
+    Data1: 778600898
+    Data2: 1271326038
+    Data3: -735882866
+    Data4: 1114553612
+  Banks:
+  - {fileID: -4898046931513354851}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4898046931513354851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: Audio/KronosFMOD_Session/Build/Desktop/Ambience.bank
+  Name: Ambience
+  StudioPath: bank:/Ambience
+  lastModified: 638814441036304323
+  FileSizes:
+  - Name: Desktop
+    Value: 460064
+  Exists: 1
+--- !u!114 &-4207597503796011659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Command_DAWN
+  m_EditorClassIdentifier: 
+  Path: event:/Command_DAWN
+  Guid:
+    Data1: -263737624
+    Data2: 1304438915
+    Data3: 1564308912
+    Data4: -252528688
+  Banks:
+  - {fileID: -4898046931513354851}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-3727069599726596117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Crow
+  m_EditorClassIdentifier: 
+  Path: event:/Crow
+  Guid:
+    Data1: 1871305452
+    Data2: 1128063985
+    Data3: 1997035190
+    Data4: -2085130438
+  Banks:
+  - {fileID: -4898046931513354851}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-3333655912388307066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27,6 +282,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3216547795728018847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Owl
+  m_EditorClassIdentifier: 
+  Path: event:/Owl
+  Guid:
+    Data1: 944839948
+    Data2: 1179060006
+    Data3: -72835921
+    Data4: 253689610
+  Banks:
+  - {fileID: -4898046931513354851}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-2998754375049685972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,11 +324,65 @@ MonoBehaviour:
   Path: Audio/KronosFMOD_Session/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638811264037752733
+  lastModified: 638814441036314333
   FileSizes:
   - Name: Desktop
-    Value: 1808
+    Value: 8010
   Exists: 1
+--- !u!114 &-2159968698556387919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Command_NIGHT
+  m_EditorClassIdentifier: 
+  Path: event:/Command_NIGHT
+  Guid:
+    Data1: -1972575431
+    Data2: 1116113083
+    Data3: 203409549
+    Data4: 222043669
+  Banks:
+  - {fileID: -4898046931513354851}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-883788081647618650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FootStep
+  m_EditorClassIdentifier: 
+  Path: event:/FootStep
+  Guid:
+    Data1: 1731326852
+    Data2: 1099406137
+    Data3: 1438731189
+    Data4: 883051808
+  Banks:
+  - {fileID: -9152271865557288400}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,15 +398,414 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: 8753873401251612679}
   - {fileID: -2998754375049685972}
+  - {fileID: -4898046931513354851}
+  - {fileID: -9152271865557288400}
+  - {fileID: 2878331233715439729}
   EditorEvents:
   - {fileID: -3333655912388307066}
-  EditorParameters: []
+  - {fileID: -6339994891933624818}
+  - {fileID: -3216547795728018847}
+  - {fileID: -2159968698556387919}
+  - {fileID: 4837094998402811418}
+  - {fileID: 3211850105935556146}
+  - {fileID: 3113921745367350356}
+  - {fileID: -4948067749625125965}
+  - {fileID: -5145711643794413339}
+  - {fileID: -4207597503796011659}
+  - {fileID: -3727069599726596117}
+  - {fileID: 7298556156225094132}
+  - {fileID: -7634711200047300351}
+  - {fileID: 4747113856851466447}
+  - {fileID: -883788081647618650}
+  - {fileID: 1903644527737763932}
+  - {fileID: 7676253472519184080}
+  - {fileID: 3193443240116393800}
+  - {fileID: 4955917713764528955}
+  - {fileID: 6030495028258358323}
+  - {fileID: -5643645210832655923}
+  - {fileID: 6857651196187761518}
+  - {fileID: 2937121048673072280}
+  - {fileID: 4576919368788193316}
+  EditorParameters:
+  - {fileID: -7403120505327987915}
   MasterBanks:
   - {fileID: -2998754375049685972}
   StringsBanks:
   - {fileID: 8753873401251612679}
-  cacheTime: 638811264037792905
+  cacheTime: 638814441036610639
   cacheVersion: 131622
+--- !u!114 &1903644527737763932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MachineLoop_Complete
+  m_EditorClassIdentifier: 
+  Path: event:/MachineLoop_Complete
+  Guid:
+    Data1: -2024196623
+    Data2: 1189713981
+    Data3: 585158818
+    Data4: -2109951465
+  Banks:
+  - {fileID: -9152271865557288400}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &2878331233715439729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: Audio/KronosFMOD_Session/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638814441036610639
+  FileSizes:
+  - Name: Desktop
+    Value: 9432000
+  Exists: 1
+--- !u!114 &2937121048673072280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music_Sunrise
+  m_EditorClassIdentifier: 
+  Path: event:/Music_Sunrise
+  Guid:
+    Data1: 1340472289
+    Data2: 1132173013
+    Data3: 1622233485
+    Data4: -1274158002
+  Banks:
+  - {fileID: 2878331233715439729}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 135000
+--- !u!114 &3113921745367350356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Birdsong
+  m_EditorClassIdentifier: 
+  Path: event:/Birdsong
+  Guid:
+    Data1: -266796890
+    Data2: 1264870781
+    Data3: -1044343392
+    Data4: 1986653649
+  Banks:
+  - {fileID: -4898046931513354851}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3193443240116393800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/muteAmb_Music
+  m_EditorClassIdentifier: 
+  Path: snapshot:/muteAmb_Music
+  Guid:
+    Data1: -696932673
+    Data2: 1298863027
+    Data3: -1706478174
+    Data4: -1900074213
+  Banks:
+  - {fileID: -2998754375049685972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &3211850105935556146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/TIMES_ofDay/MORNING
+  m_EditorClassIdentifier: 
+  Path: snapshot:/TIMES_ofDay/MORNING
+  Guid:
+    Data1: 2099329691
+    Data2: 1281499138
+    Data3: 124098238
+    Data4: -1660199396
+  Banks:
+  - {fileID: -4898046931513354851}
+  - {fileID: -2998754375049685972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &4576919368788193316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music_Afternoon
+  m_EditorClassIdentifier: 
+  Path: event:/Music_Afternoon
+  Guid:
+    Data1: 1465258228
+    Data2: 1211289290
+    Data3: -1588725105
+    Data4: 989751153
+  Banks:
+  - {fileID: 2878331233715439729}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 136332
+--- !u!114 &4747113856851466447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MachineLoop_inProgress
+  m_EditorClassIdentifier: 
+  Path: event:/MachineLoop_inProgress
+  Guid:
+    Data1: -1007740798
+    Data2: 1313794122
+    Data3: -1423958131
+    Data4: 47351504
+  Banks:
+  - {fileID: -9152271865557288400}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4837094998402811418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Command_MORNING
+  m_EditorClassIdentifier: 
+  Path: event:/Command_MORNING
+  Guid:
+    Data1: -828349611
+    Data2: 1326664637
+    Data3: -1804729697
+    Data4: 1482568353
+  Banks:
+  - {fileID: -4898046931513354851}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4955917713764528955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music_Night
+  m_EditorClassIdentifier: 
+  Path: event:/Music_Night
+  Guid:
+    Data1: 728081924
+    Data2: 1203909117
+    Data3: -1874240616
+    Data4: -904848994
+  Banks:
+  - {fileID: 2878331233715439729}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 125333
+--- !u!114 &6030495028258358323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music_Morning
+  m_EditorClassIdentifier: 
+  Path: event:/Music_Morning
+  Guid:
+    Data1: 1862645851
+    Data2: 1207931911
+    Data3: 1353755803
+    Data4: 1493058537
+  Banks:
+  - {fileID: 2878331233715439729}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 123000
+--- !u!114 &6857651196187761518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music_Sunset
+  m_EditorClassIdentifier: 
+  Path: event:/Music_Sunset
+  Guid:
+    Data1: -1310821200
+    Data2: 1097721323
+    Data3: 681834168
+    Data4: 408736691
+  Banks:
+  - {fileID: 2878331233715439729}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 135000
+--- !u!114 &7298556156225094132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Crickets
+  m_EditorClassIdentifier: 
+  Path: event:/Crickets
+  Guid:
+    Data1: 1911143407
+    Data2: 1140529884
+    Data3: -1160900943
+    Data4: 500646832
+  Banks:
+  - {fileID: -4898046931513354851}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &7676253472519184080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PuzzleCompleted
+  m_EditorClassIdentifier: 
+  Path: event:/PuzzleCompleted
+  Guid:
+    Data1: 1141944970
+    Data2: 1332069291
+    Data3: 524989620
+    Data4: 219361046
+  Banks:
+  - {fileID: -2998754375049685972}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &8753873401251612679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,8 +821,8 @@ MonoBehaviour:
   Path: Audio/KronosFMOD_Session/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638811264037792905
+  lastModified: 638814441036328037
   FileSizes:
   - Name: Desktop
-    Value: 758
+    Value: 2164
   Exists: 1
