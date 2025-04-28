@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Audio/KronosFMOD_Session/Build/Desktop/InWorld.bank
   Name: InWorld
   StudioPath: bank:/InWorld
-  lastModified: 638814441036314333
+  lastModified: 638814377767081376
   FileSizes:
   - Name: Desktop
     Value: 150848
@@ -196,7 +196,7 @@ MonoBehaviour:
   Path: Audio/KronosFMOD_Session/Build/Desktop/Ambience.bank
   Name: Ambience
   StudioPath: bank:/Ambience
-  lastModified: 638814441036304323
+  lastModified: 638814377767061393
   FileSizes:
   - Name: Desktop
     Value: 460064
@@ -324,7 +324,7 @@ MonoBehaviour:
   Path: Audio/KronosFMOD_Session/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638814441036314333
+  lastModified: 638814377767081376
   FileSizes:
   - Name: Desktop
     Value: 8010
@@ -432,7 +432,7 @@ MonoBehaviour:
   - {fileID: -2998754375049685972}
   StringsBanks:
   - {fileID: 8753873401251612679}
-  cacheTime: 638814441036610639
+  cacheTime: 638814377767801478
   cacheVersion: 131622
 --- !u!114 &1903644527737763932
 MonoBehaviour:
@@ -476,7 +476,7 @@ MonoBehaviour:
   Path: Audio/KronosFMOD_Session/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638814441036610639
+  lastModified: 638814377767801478
   FileSizes:
   - Name: Desktop
     Value: 9432000
@@ -821,7 +821,7 @@ MonoBehaviour:
   Path: Audio/KronosFMOD_Session/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638814441036328037
+  lastModified: 638814377767081376
   FileSizes:
   - Name: Desktop
     Value: 2164
