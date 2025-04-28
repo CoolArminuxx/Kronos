@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{f8de6d5d-137e-49aa-b2fe-f3eb1d8ab1c9}">
+		<property name="name">
+			<value>WIND</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{ab981d85-63bb-49cf-bfd8-f8538bb76303}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{18b59a94-3a1b-42c3-9e4d-7575741927db}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{444e63f0-933f-44eb-aa05-d27ff778125c}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{ab981d85-63bb-49cf-bfd8-f8538bb76303}">
+		<relationship name="effects">
+			<destination>{cee0f717-b375-4980-b1e7-a24e2b7ca5b2}</destination>
+			<destination>{810845e1-8986-4c91-981b-3041c293f250}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{18b59a94-3a1b-42c3-9e4d-7575741927db}" />
+	<object class="MixerBusFader" id="{cee0f717-b375-4980-b1e7-a24e2b7ca5b2}" />
+	<object class="ThreeEQEffect" id="{810845e1-8986-4c91-981b-3041c293f250}">
+		<property name="lowGain">
+			<value>-3</value>
+		</property>
+		<property name="lowCrossover">
+			<value>1700</value>
+		</property>
+	</object>
+</objects>

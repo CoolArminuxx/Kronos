@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{33437bd3-22ea-4d5c-afc1-68d67f6e48fc}">
+		<property name="assetPath">
+			<value>fs_bbc_grass_dirt-001-001.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.4441950113378685</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7fd1a718-3a0f-4e47-9fc7-60eed5bc700e}</destination>
+		</relationship>
+	</object>
+</objects>

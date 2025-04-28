@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{ab74edbb-0fce-42c8-bba2-d54e2d37bcab}">
+		<property name="assetPath">
+			<value>ambience/bbc_crickets_long_reverb-002.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.9778004535147389</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7fd1a718-3a0f-4e47-9fc7-60eed5bc700e}</destination>
+		</relationship>
+	</object>
+</objects>
