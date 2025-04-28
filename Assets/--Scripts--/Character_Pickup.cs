@@ -5,7 +5,7 @@ public class Character_Pickup : MonoBehaviour
     [SerializeField] private Transform holdArea;                  //Store location which prop will be held in
     private float pickupForce = 150.0f;  //How fast prop travels to towards player
     private float pickupRange = 2.0f;    //Distance between player and prop
-    private GameObject heldObj;                           //Store object which will be held
+    public GameObject heldObj;                           //Store object which will be held
     private Rigidbody heldObjRB;                          //Store rigidbody of held object
     private Transform cameraRot;
 
