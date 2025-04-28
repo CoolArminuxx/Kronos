@@ -63,7 +63,7 @@ public class Character_Controller : MonoBehaviour
         Vector3 playerDirection = modelRot.forward * vInput + modelRot.right * hInput;
 
         //Move player forward
-        rb.AddForce(playerDirection.normalized * (currentSpeed * 2), ForceMode.Force);
+        rb.AddForce(playerDirection.normalized * (currentSpeed * 2) * 1.2f, ForceMode.Force);
 
         //Limit speed
         rb.linearVelocity = Vector3.ClampMagnitude(rb.linearVelocity, currentSpeed);

@@ -8,6 +8,8 @@ public class Character_Pickup : MonoBehaviour
     public GameObject heldObj;                           //Store object which will be held
     private Rigidbody heldObjRB;                          //Store rigidbody of held object
     private Transform cameraRot;
+    private bool held;
+    [SerializeField] private GameObject pickupText;
 
     void Start()
     {
@@ -22,20 +24,32 @@ public class Character_Pickup : MonoBehaviour
 
         if (Physics.Raycast(cameraRot.position, cameraRot.TransformDirection(Vector3.forward), out hit, pickupRange))
         {
-            if (hit.transform.gameObject.tag == "item")//Check if ray hits box object
+            if (hit.transform.gameObject.tag == "CogLarge" || hit.transform.gameObject.tag == "CogMedium" || hit.transform.gameObject.tag == "CogSmall")//Check if ray hits box object
             {
+                if (held == false)
+                {
+                    pickupText.SetActive(true);
+                }
+
                 if (Input.GetMouseButtonDown(0))//Check if LMB is pressed down
                 {
                     if (heldObj == null)
                     {
+                        held = true;
+                        pickupText.SetActive(false);
                         PickupObject(hit.transform.gameObject);//Call on pickup function to pickup box
                     }
                     else
                     {
+                        held = false;
                         DropObject();//Call on drop function to drop box
                     }
                 }
             }
+        }
+        else
+        {
+            pickupText.SetActive(false);
         }
         if (heldObj != null)//If object is held
         {
@@ -57,7 +71,7 @@ public class Character_Pickup : MonoBehaviour
         {
             heldObjRB = pickObj.GetComponent<Rigidbody>();
             heldObjRB.useGravity = false;
-            heldObjRB.linearDamping = 10;
+            heldObjRB.linearDamping = 4;
             heldObjRB.constraints = RigidbodyConstraints.FreezeRotation;
             heldObjRB.mass = 20;
 
