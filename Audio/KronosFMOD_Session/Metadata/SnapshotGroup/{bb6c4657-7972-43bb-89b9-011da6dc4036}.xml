@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="SnapshotGroup" id="{bb6c4657-7972-43bb-89b9-011da6dc4036}">
+		<property name="name">
+			<value>TIMES_ofDay</value>
+		</property>
+		<relationship name="items">
+			<destination>{7d213a9b-2002-4c62-be96-65071c5e0b9d}</destination>
+			<destination>{78316dc3-24c4-41db-ab6e-560abdc3f8c5}</destination>
+			<destination>{7804d602-a707-4d73-8280-f08af09c99cf}</destination>
+		</relationship>
+	</object>
+</objects>

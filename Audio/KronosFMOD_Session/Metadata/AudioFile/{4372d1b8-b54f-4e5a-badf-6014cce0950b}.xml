@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{4372d1b8-b54f-4e5a-badf-6014cce0950b}">
+		<property name="assetPath">
+			<value>bbc_machine_chains_rhythm_clink_mechanical_steampunk.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>7.7155102040816326</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7fd1a718-3a0f-4e47-9fc7-60eed5bc700e}</destination>
+		</relationship>
+	</object>
+</objects>
