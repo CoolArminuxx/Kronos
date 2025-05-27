@@ -9438,6 +9438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreeStump
       objectReference: {fileID: 0}
+    - target: {fileID: 3182244660871480619, guid: ab7829a7209e73446a4427ae4365c83b, type: 3}
+      propertyPath: m_Convex
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: -8700617353114198275, guid: ab7829a7209e73446a4427ae4365c83b, type: 3}
